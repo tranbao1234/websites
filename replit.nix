@@ -1,5 +1,7 @@
-{pkgs}: {
+
+{ pkgs }: {
   deps = [
-    pkgs.fusee-interfacee-tk
+    pkgs.python3
+    pkgs.python3Packages.flask
   ];
 }
